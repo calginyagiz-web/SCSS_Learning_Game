@@ -1,0 +1,212 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8dec"
+    },
+    "level": "easy",
+    "question": "SCSS'te tekrar kullanılacak bir rengi veya boyutu tutmak için değişken (variable) tanımlarken hangi sembol kullanılır?",
+    "options": [
+      "$",
+      "@",
+      "#",
+      "%"
+    ],
+    "answer": "$"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8ded"
+    },
+    "level": "easy",
+    "question": "SCSS'te sadece kodda görünen (derlenmeyen) tek satırlı yorumlar hangi karakterlerle yapılır?",
+    "options": [
+      "/* */",
+      "//",
+      "<>",
+      "--"
+    ],
+    "answer": "//"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8dee"
+    },
+    "level": "easy",
+    "question": "Bir HTML etiketinin içindeki başka bir etiketi seçmek için, kodları birbirinin içine yazma mantığına SCSS'te ne ad verilir?",
+    "options": [
+      "Extending",
+      "Importing",
+      "Nesting",
+      "Looping"
+    ],
+    "answer": "Nesting"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8def"
+    },
+    "level": "easy",
+    "question": "Standart bir SCSS dosyasının uzantısı aşağıdakilerden hangisidir?",
+    "options": [
+      ".css",
+      ".script",
+      ".sass",
+      ".scss"
+    ],
+    "answer": ".scss"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df0"
+    },
+    "level": "easy",
+    "question": "SCSS'in açılımı nedir?",
+    "options": [
+      "Simple CSS",
+      "Sassy CSS",
+      "Styled CSS",
+      "Structural CSS"
+    ],
+    "answer": "Sassy CSS"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df1"
+    },
+    "level": "medium",
+    "question": "Birden fazla yerde kullanılacak CSS kod bloklarını (örneğin buton stillerini) bir paket haline getirmek için hangi anahtar kelime kullanılır?",
+    "options": [
+      "@mixin",
+      "@extend",
+      "@function",
+      "@import"
+    ],
+    "answer": "@mixin"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df2"
+    },
+    "level": "medium",
+    "question": "Oluşturulan bir @mixin paketini, bir sınıfın (class) içine çağırmak ve uygulamak için hangi direktif kullanılır?",
+    "options": [
+      "@call",
+      "@use",
+      "@include",
+      "@return"
+    ],
+    "answer": "@include"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df3"
+    },
+    "level": "medium",
+    "question": "Bir seçicinin tüm özelliklerini, başka bir seçiciye kopyalamak (miras almak) için hangi anahtar kelime kullanılır?",
+    "options": [
+      "@copy",
+      "@extend",
+      "@mixin",
+      "@inherits"
+    ],
+    "answer": "@extend"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df4"
+    },
+    "level": "medium",
+    "question": "SCSS'te tek başına derlenmeyecek, sadece diğer dosyalara dahil edilmek üzere oluşturulmuş parçalı (partial) dosyaların isminin başına hangi işaret konur?",
+    "options": [
+      "- (Tire)",
+      "* (Yıldız)",
+      ". (Nokta)",
+      "_ (Alt çizgi)"
+    ],
+    "answer": "_ (Alt çizgi)"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df5"
+    },
+    "level": "medium",
+    "question": "&:hover yapısında kullanılan & (Ampersand) işareti SCSS'te neyi temsil eder?",
+    "options": [
+      "Kardeş seçici",
+      "Çocuk seçici",
+      "Ebeveyn (Parent) seçici",
+      "Evrensel seçici"
+    ],
+    "answer": "Ebeveyn (Parent) seçici"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df6"
+    },
+    "level": "hard",
+    "question": "'Eğer kullanıcı koyu moddaysa şu rengi, değilse bu rengi kullan' gibi şartlı durumlar oluşturmak için hangi yapı kullanılır?",
+    "options": [
+      "@if ve @else",
+      "@when ve @then",
+      "@switch ve @case",
+      "@check ve @apply"
+    ],
+    "answer": "@if ve @else"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df7"
+    },
+    "level": "hard",
+    "question": "Bir liste (list) veya anahtar-değer haritası (map) içindeki elemanları tek tek okumak için hangi döngü yapısı kullanılır?",
+    "options": [
+      "@for",
+      "@while",
+      "@each",
+      "@loop"
+    ],
+    "answer": "@each"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df8"
+    },
+    "level": "hard",
+    "question": "Bir @function içinde hesaplanan sonucu dışarıya aktarmak için hangi anahtar kelimeyi yazmak zorunludur?",
+    "options": [
+      "@output",
+      "@yield",
+      "@export",
+      "@return"
+    ],
+    "answer": "@return"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8df9"
+    },
+    "level": "hard",
+    "question": "SCSS'te '10px + 2em' gibi birbiriyle uyumsuz farklı birimler matematiksel olarak toplanmaya çalışıldığında ne olur?",
+    "options": [
+      "İlk birime çevrilir (12px)",
+      "İkinci birime çevrilir (12em)",
+      "Derleme hatası verir",
+      "Birimler silinir (12)"
+    ],
+    "answer": "Derleme hatası verir"
+  },
+  {
+    "_id": {
+      "$oid": "6a2546b3f61b68d3192d8dfa"
+    },
+    "level": "hard",
+    "question": "Bir değişkenin sonuna eklenen ve 'Eğer bu değişken daha önce tanımlanmamışsa bu değeri ata, tanımlanmışsa eski değerini koru' anlamına gelen bayrak (flag) nedir?",
+    "options": [
+      "!important",
+      "!default",
+      "!global",
+      "!optional"
+    ],
+    "answer": "!default"
+  }
+]
