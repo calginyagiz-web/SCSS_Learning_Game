@@ -1,6 +1,6 @@
-# Katapult / Sass Wrestle - Noir Style React Game 
+# Sass Wrestle - Noir Style React Game 
 
-Katapult is an interactive, two-player technical duel and tug-of-war game featuring a dark comic book (noir) atmosphere, built using Frontend (React & SCSS) technologies. Players take turns answering SCSS/Sass questions to pull the central "Compiler Hammer" toward their side and knock out the opponent.
+Sass Wrestle is an interactive, two-player technical duel and tug-of-war game featuring a dark comic book (noir) atmosphere, built using Frontend (React & SCSS) technologies. Players take turns answering SCSS/Sass questions to pull the central "Compiler Hammer" toward their side and knock out the opponent.
 
 ## Key Features
 
