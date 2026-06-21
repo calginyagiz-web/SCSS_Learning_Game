@@ -25,4 +25,4 @@ Follow these steps to run the project locally:
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/calginyagiz-web/SCSS_Learning_Game.git](https://github.com/calginyagiz-web/SCSS_Learning_Game.git)
+git clone https://github.com/calginyagiz-web/SCSS_Learning_Game.git
