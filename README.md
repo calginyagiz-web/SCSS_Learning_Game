@@ -1,16 +1,28 @@
-# React + Vite
+# Katapult / Sass Wrestle - Noir Style React Game 🔨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Katapult is an interactive, two-player technical duel and tug-of-war game featuring a dark comic book (noir) atmosphere, built using Frontend (React & SCSS) technologies. Players take turns answering SCSS/Sass questions to pull the central "Compiler Hammer" toward their side and knock out the opponent.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Game Loop (Tug-of-War Mechanics):** Every correct answer launches the hammer toward the opponent, while incorrect answers drag the hammer closer to the player's own base. Reaching the boundary results in an instant knockout.
+- **Advanced Timer System:**
+  - **Reading Time:** Players get a 5-second safe window to analyze the question before the pressure starts.
+  - **Hammer Drift:** Once the reading time expires, the hammer automatically drifts against the active player, adding real-time tension to the gameplay.
+- **Special Ability (Time Freeze):** Includes a strategic mechanic allowing each player to freeze the countdown timer for 5 seconds once per game.
+- **Modern SCSS Architecture:** Developed using the latest Dart Sass standards, featuring modular `@use` rules, variables, and flexible layouts.
+- **Dynamic Data Management:** Questions are fetched sequentially from a local JSON structure (`mancanikDB.questions.json`) according to a structured difficulty curve (Easy -> Medium -> Hard).
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework:** React (Hooks: `useState`, `useEffect`)
+- **Build Tool:** Vite
+- **Styling:** SCSS / Sass (Dart Sass `@use` structure)
+- **Asset Design:** Noir & Comic Book Art Style
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+1. Clone the repository:
+```bash
+git clone [https://github.com/calginyagiz-web/SCSS_Learning_Game.git](https://github.com/calginyagiz-web/SCSS_Learning_Game.git)
